@@ -82,7 +82,7 @@ export default function PricingPage() {
             <h2 className={styles.planTitle}>Patients in India</h2>
 
             <div className={styles.priceWrapper}>
-              <span className={styles.price}>₹999</span>
+              <span className={styles.price}>6999</span>
               <span className={styles.period}>/ consult</span>
             </div>
 
