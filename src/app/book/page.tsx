@@ -158,7 +158,7 @@ const SlotSelection = () => {
                             <div className={styles.discountBadge}>Starting Discount</div>
                             <div className={styles.discountBadge}>New Patient Offer</div>
                         </div>
-                        <div className={styles.finalPrice}>₹999</div>
+                        <div className={styles.finalPrice}>₹699</div>
                     </div>
                     {booking.patientType === 'India' && (
                         <div style={{ position: 'absolute', top: '15px', right: '15px', color: 'var(--primary)' }}>
@@ -299,10 +299,10 @@ const PatientDetails = () => {
             setOtpError('Name and Phone number are required.');
             return;
         }
-        
+
         // Clean phone number of spaces, dashes, parentheses
         const clean = otpPhone.replace(/[\s\-\(\)]/g, '');
-        
+
         let isValid = false;
         if (clean.startsWith('+')) {
             // E.164 format: + followed by 7 to 15 digits

@@ -2,15 +2,15 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { 
-  Check, 
-  ChevronDown, 
-  ShieldCheck, 
-  Globe, 
-  Clock, 
-  Sparkles, 
-  BadgePercent, 
-  UserCheck, 
+import {
+  Check,
+  ChevronDown,
+  ShieldCheck,
+  Globe,
+  Clock,
+  Sparkles,
+  BadgePercent,
+  UserCheck,
   MessageSquare,
   HelpCircle,
   TrendingDown,
@@ -80,7 +80,7 @@ export default function PricingPage() {
           <div className={`${styles.pricingCard} ${styles.popularCard}`} id="domestic-pricing-card">
             <span className={styles.planCategory}>Domestic Consultations</span>
             <h2 className={styles.planTitle}>Patients in India</h2>
-            
+
             <div className={styles.priceWrapper}>
               <span className={styles.price}>₹999</span>
               <span className={styles.period}>/ consult</span>
@@ -124,7 +124,7 @@ export default function PricingPage() {
             <div className={styles.ribbon}>Global</div>
             <span className={styles.planCategory}>International Consultations</span>
             <h2 className={styles.planTitle}>Global Patients</h2>
-            
+
             <div className={styles.priceWrapper}>
               <span className={styles.price}>$40</span>
               <span className={styles.period}>/ consult</span>
@@ -185,7 +185,7 @@ export default function PricingPage() {
             <tbody>
               <tr>
                 <td>Doctor's Consultation Fee</td>
-                <td>₹999</td>
+                <td>₹699</td>
                 <td>$40 (equivalent to ₹3,400)</td>
               </tr>
               <tr>
@@ -205,7 +205,7 @@ export default function PricingPage() {
               </tr>
               <tr className={styles.highlightRow}>
                 <td><strong>Final Amount Billed</strong></td>
-                <td><strong>₹999 only</strong></td>
+                <td><strong>₹699 only</strong></td>
                 <td><strong>$40 (₹3,400) only</strong></td>
               </tr>
             </tbody>
@@ -290,8 +290,8 @@ export default function PricingPage() {
               const isOpen = openFaqIndex === index;
               return (
                 <div key={index} className={styles.accordionItem} id={`faq-item-${index}`}>
-                  <button 
-                    className={styles.accordionHeader} 
+                  <button
+                    className={styles.accordionHeader}
                     onClick={() => toggleFaq(index)}
                     aria-expanded={isOpen}
                   >
