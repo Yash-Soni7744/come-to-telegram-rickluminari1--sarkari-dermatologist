@@ -246,7 +246,7 @@ export default function PricingPage() {
               </h3>
               <ul className={styles.valueList}>
                 <li className={styles.valueItem}>
-                  <strong>Consultation Fee:</strong> Just <strong>₹999 / $40</strong> for verified top board-certified care.
+                  <strong>Consultation Fee:</strong> Just <strong>₹699 / $40</strong> for verified top board-certified care.
                 </li>
                 <li className={styles.valueItem}>
                   <strong>Travel & Commute:</strong> <strong>₹0</strong>. Conduct from the absolute comfort of home.
